@@ -24,6 +24,10 @@ fun main() {
     val updateUser=item4.plus(User("Mohamed","Said")) //.plus used to adding a new data to the arrau
 
     updateUser.forEach { println(it) } //to print with last update in the "updateUser"
+ // you can edit any item in this array with its index
+    item4[0]= User("Nada","Ahmed")
+    val index= item4[0]
+    println(index)
 
 
 }
