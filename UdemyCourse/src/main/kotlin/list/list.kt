@@ -15,6 +15,12 @@ fun main() {
         User("ali","ahmed")
     )
     users.forEach { println(it) }
-    println("********************************")
+    println("=========================")
     val first=users.first() //Returns the first element.
+    val last= users.last() //Returns the last element
+    println("=========================")
+  val name:String?=null
+    val stuff= if(name== null) emptyList() else listOf(name)
+
+println(stuff)
 }
